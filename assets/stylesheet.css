@@ -4,6 +4,71 @@ html {
 }
 
 header {
-	background-color: rgba(86,74,207,0.8);
 	text-align: center;
+	background: url("header-bg.jpg");
+	background-size: cover;
+	height: 400px;
+	color: white;
+	position: relative;
+	margin-top: -200px;
 }
+
+nav {
+	position: relative;
+	float: center;
+	top: 0;
+	font-size: 1.5em;
+	display: inline;
+	margin-top: 5px;
+	color: rgba(0,0,0,0.5);
+}
+
+li {
+	list-style-type: none;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid rgba(191,140,73,0.8);
+	border-radius: 30px;
+}
+
+button {
+	color: rgba(191, 140, 73, 0.8);
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#search_container {
+	float: right;
+	padding-right: 20px;
+}
+
+.search_items {
+	border-radius: 10px;
+}
+
+#header_title {
+ 	position: absolute;
+ 	bottom: 0;
+ 	font-size: 4em;
+ 	margin: 0 auto;
+ 	padding-left: 20px;
+ }
+
+ @media (max-width: 500px) {
+ 	#header_title {
+ 		font-size: 1.5em;
+ 	}
+ }
+
+/*#header-logo {
+	border-radius: 50px;
+	border: 3px solid rgba(0,0,0,0.6);
+	opacity: 0.8;
+}*/
